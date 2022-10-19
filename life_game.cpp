@@ -144,7 +144,8 @@ int main() {
   unsigned rows = 0;
   unsigned cols = 0;
 
-  if (false == load_game("lifegame2.cfg", &field, rows, cols)) {
+//  if (false == load_game("generation_3_death.cfg", &field, rows, cols)) {
+  if (false == load_game("generation_14_stagnation.cfg", &field, rows, cols)) {
     return 1;
   }
 
